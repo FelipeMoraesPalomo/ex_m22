@@ -1,5 +1,26 @@
+@use 'variables';
+
 .text-image{
     padding: 80px 0;
+    color: variables.$textColor;
+
+    &--one{
+        background-image: linear-gradient(rgb(250, 121, 0), rgb(252, 29, 0));
+    }
+
+    &--two{
+        background-image: linear-gradient(rgb(252, 29, 0), rgb(252, 0, 168));
+    }
+
+    &--three{
+        background-image: linear-gradient(rgb(252, 0, 168), rgb(151, 0, 252));
+    }
+
+    &--four{
+        background-image: linear-gradient(rgb(151, 0, 252), rgb(0, 118, 252));
+    }
+
+
 
     .container{
         display: flex;
