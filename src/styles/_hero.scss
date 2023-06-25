@@ -39,5 +39,16 @@
         width: 150px;
     }
 
+    @media (max-width: 640px){
+        padding: 40px 0px;
+        &__logo{
+            height: 100px;
+        }
 
+        &__text{
+            font-size: 22px;
+            line-height: 24px;
+            margin: 24px 0;
+        }
+    }
 }
