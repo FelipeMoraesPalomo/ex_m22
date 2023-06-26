@@ -48,4 +48,20 @@
             flex-direction: row-reverse;
         }
     }
+
+    @media (max-width: 640px){
+        padding: 40px 0;
+        .container{
+            display: block;
+            width: 90%;
+        }
+
+        &__details{
+            margin-bottom: 16px;
+        }
+
+        &__image{
+            width: 100%;
+        }
+    }
 }

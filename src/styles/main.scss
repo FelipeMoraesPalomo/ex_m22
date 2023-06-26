@@ -9,6 +9,10 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+
+    @media (max-width: 640px){
+        overflow-x: hidden;
+    }
 }
 
 .container{
