@@ -11,10 +11,12 @@
     &__list{
         display: flex;
         list-style: none;
+        align-items: center;
         gap: 40px;
 
         &__item{
-
+            line-height: 24px;
+                
             b{
                 display: block;
             }

@@ -8,6 +8,10 @@
     text-align: center;
     overflow-wrap: break-word;
 
+    &:hover{
+        background-color: darken(variables.$purple, 20%)
+    }
+
     &--primary{
         color: #fff;
         background-color: variables.$purple;
