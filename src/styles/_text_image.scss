@@ -64,4 +64,11 @@
             width: 100%;
         }
     }
+
+    @media (min-width: 640px) and (max-width: 1024px){
+        &__image{
+            width: 900px;
+        }
+        font-size: 20px;
+    }
 }
