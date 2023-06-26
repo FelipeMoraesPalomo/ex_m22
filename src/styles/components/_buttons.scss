@@ -13,4 +13,7 @@
         background-color: variables.$purple;
     }
 
+    @media (max-width: 640px){
+        display: block;
+    }
 }

@@ -6,7 +6,7 @@
     background-color: variables.$textColor;
     color: variables.$secondaryTextColor;
     padding: 16px 24px;
-    width: 1024px;
+    width: 100%;
 
     &__list{
         display: flex;
@@ -17,6 +17,17 @@
 
             b{
                 display: block;
+            }
+        }
+    }
+
+    @media (max-width: 640px){
+        display: block;
+        &__list{
+            display: block;
+
+            &__item{
+                margin-bottom: 16px;
             }
         }
     }
